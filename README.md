@@ -90,7 +90,7 @@ Or create a random color by running the `shades` command without arguments:
 All the colors generated with the `shades` command will be added in `config.js` and `purgetss.colors.js` files automatically.
 
 ## Add `purgetss.colors.js` to your project
-To add the `purgetss.colors.js` file to your project, you can use the `color-module` command:
+To add the `purgetss.colors.js` file to your project, just run the `color-module` command:
 ```bash
 > purgetss color-module
 ```
