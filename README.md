@@ -1,6 +1,6 @@
 # Color Shades
 
-## Is a very simple [Titanium App](https://titaniumsdk.com) for iOS and Android that showcase all the colors defined in `config.js` file created with [PurgeTSS](https://github.com/macCesar/purgeTSS)
+##Is a very simple [Titanium App](https://titaniumsdk.com) for iOS and Android that showcase all the colors defined in `config.js` file created with [PurgeTSS](https://github.com/macCesar/purgeTSS)
 
 `purgetss.colors.js` file was generated with the `color-module` command in **PurgeTSS**, and contains all the colors defined in `./purgetss/config.js` file.
 
@@ -8,10 +8,10 @@
 
 The App reads the generated file and displays all the colors and shades with their repective names and values.
 
-## How to use
+##How to use
 Just download the App and run it on your device, or simulator.
 
-## Add new colors
+##Add new colors
 
 To add new colors you'll need to have **PurgeTSS** installed globally on your machine.
 
@@ -60,7 +60,7 @@ module.exports = {
 }
 ```
 
-Use the `-s, --single` option to generate a single color definition instead of shades of colors.:
+Use the `-s, --single` option to generate a single color definition instead of shades of colors:
 ```bash
 > purgetss shades bc560a -s
 ::PurgeTSS:: All colors copied to lib/purgetss.colors.js
@@ -87,9 +87,9 @@ Or create a random color by running the `shades` command without arguments:
 > purgetss shades
 ```
 
-All the colors generated with the `shades` command will will be added in `config.js` and `purgetss.colors.js` files automatically.
+All the colors generated with the `shades` command will be added in `config.js` and `purgetss.colors.js` files automatically.
 
-## Add `purgetss.colors.js` to your project
+##Add `purgetss.colors.js` to your project
 To add the `purgetss.colors.js` file to your project, you can use the `color-module` command:
 ```bash
 > purgetss color-module
