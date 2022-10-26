@@ -1,6 +1,6 @@
 # Color Shades
 
-## Is a very simple [Titanium App](https://titaniumsdk.com) for iOS and Android to showcase all the colors in `config.js` file, created with [PurgeTSS](https://github.com/macCesar/purgeTSS)
+## Is a [Titanium App](https://titaniumsdk.com) for iOS and Android to showcase all the colors in `config.js` file, created with [PurgeTSS](https://github.com/macCesar/purgeTSS)
 
 `purgetss.colors.js` file was generated with the `color-module` command in **PurgeTSS**, and contains all the colors defined in `./purgetss/config.js` file.
 
