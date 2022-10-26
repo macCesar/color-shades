@@ -1,0 +1,25 @@
+{
+	"global": {
+		"colors": {
+			"lima": "#65e92c",
+			"lima-50": "#f0fee7",
+			"lima-100": "#dcfdca",
+			"lima-200": "#bbfb9b",
+			"lima-300": "#90f561",
+			"lima-400": "#65e92c",
+			"lima-500": "#48d012",
+			"lima-600": "#34a60a",
+			"lima-700": "#297e0d",
+			"lima-800": "#246410",
+			"lima-900": "#215413"
+		}
+	},
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
+	"os:android": {},
+	"os:ios": {},
+	"os:windows": {},
+	"dependencies": {},
+	"backbone": "1.4.0"
+}

@@ -1,0 +1,6 @@
+<Alloy>
+  <View class="vertical">
+    <Label text="$.args.color" class="w-screen h-auto m-2 text-lg text-left" />
+    <View id="container" class="mb-4 horizontal rounded-xl" />
+  </View>
+</Alloy>
