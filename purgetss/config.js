@@ -12,8 +12,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'kingfisher-daisy': '#38069a',
-        'olive-drab': '#5cb22c',
         primary: {
           '50': '#f4f6f7',
           '100': '#e3e7ea',
@@ -91,7 +89,8 @@ module.exports = {
           '800': '#383c9b',
           '900': '#343a7b',
           default: '#7281e8'
-        }
+        },
+        vesuvius: '#bc560a'
       }
     },
     Label: { apply: 'text-(#53606b)' }

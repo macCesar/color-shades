@@ -4,7 +4,7 @@
 // Tailwind-like styles
 // Generated with PurgeTSS
 // https://github.com/macCesar/purgeTSS
-// config.js file updated on: Tue Oct 25 2022 21:06:54 GMT-0500 (hora de verano central)
+// config.js file updated on: Tue Oct 25 2022 22:08:22 GMT-0500 (hora de verano central)
 
 // Ti Elements
 // Property: View
@@ -3077,8 +3077,6 @@
 '.from-rose-700': { backgroundGradient: { colors: [ '#00be123c', '#be123c' ] } }
 '.from-rose-800': { backgroundGradient: { colors: [ '#009f1239', '#9f1239' ] } }
 '.from-rose-900': { backgroundGradient: { colors: [ '#00881337', '#881337' ] } }
-'.from-kingfisher-daisy': { backgroundGradient: { colors: [ '#0038069a', '#38069a' ] } }
-'.from-olive-drab': { backgroundGradient: { colors: [ '#005cb22c', '#5cb22c' ] } }
 '.from-primary-50': { backgroundGradient: { colors: [ '#00f4f6f7', '#f4f6f7' ] } }
 '.from-primary-100': { backgroundGradient: { colors: [ '#00e3e7ea', '#e3e7ea' ] } }
 '.from-primary-200': { backgroundGradient: { colors: [ '#00cad2d7', '#cad2d7' ] } }
@@ -3145,6 +3143,7 @@
 '.from-cornflower-blue-800': { backgroundGradient: { colors: [ '#00383c9b', '#383c9b' ] } }
 '.from-cornflower-blue-900': { backgroundGradient: { colors: [ '#00343a7b', '#343a7b' ] } }
 '.from-cornflower-blue': { backgroundGradient: { colors: [ '#007281e8', '#7281e8' ] } }
+'.from-vesuvius': { backgroundGradient: { colors: [ '#00bc560a', '#bc560a' ] } }
 
 // Property(ies): backgroundGradient: colors - To Color
 // Component(s): Ti.UI.ListItem, Ti.UI.View
@@ -3371,8 +3370,6 @@
 '.to-rose-700': { backgroundGradient: { colors: [ '#be123c' ] } }
 '.to-rose-800': { backgroundGradient: { colors: [ '#9f1239' ] } }
 '.to-rose-900': { backgroundGradient: { colors: [ '#881337' ] } }
-'.to-kingfisher-daisy': { backgroundGradient: { colors: [ '#38069a' ] } }
-'.to-olive-drab': { backgroundGradient: { colors: [ '#5cb22c' ] } }
 '.to-primary-50': { backgroundGradient: { colors: [ '#f4f6f7' ] } }
 '.to-primary-100': { backgroundGradient: { colors: [ '#e3e7ea' ] } }
 '.to-primary-200': { backgroundGradient: { colors: [ '#cad2d7' ] } }
@@ -3439,6 +3436,7 @@
 '.to-cornflower-blue-800': { backgroundGradient: { colors: [ '#383c9b' ] } }
 '.to-cornflower-blue-900': { backgroundGradient: { colors: [ '#343a7b' ] } }
 '.to-cornflower-blue': { backgroundGradient: { colors: [ '#7281e8' ] } }
+'.to-vesuvius': { backgroundGradient: { colors: [ '#bc560a' ] } }
 
 // Property(ies): backgroundSelectedGradient: colors - From Color - iOS Only
 // Component(s): Ti.UI.ListItem, Ti.UI.View
@@ -3665,8 +3663,6 @@
 '.bg-selected-from-rose-700': { backgroundSelectedGradient: { colors: [ '#00be123c', '#be123c' ] } }
 '.bg-selected-from-rose-800': { backgroundSelectedGradient: { colors: [ '#009f1239', '#9f1239' ] } }
 '.bg-selected-from-rose-900': { backgroundSelectedGradient: { colors: [ '#00881337', '#881337' ] } }
-'.bg-selected-from-kingfisher-daisy': { backgroundSelectedGradient: { colors: [ '#0038069a', '#38069a' ] } }
-'.bg-selected-from-olive-drab': { backgroundSelectedGradient: { colors: [ '#005cb22c', '#5cb22c' ] } }
 '.bg-selected-from-primary-50': { backgroundSelectedGradient: { colors: [ '#00f4f6f7', '#f4f6f7' ] } }
 '.bg-selected-from-primary-100': { backgroundSelectedGradient: { colors: [ '#00e3e7ea', '#e3e7ea' ] } }
 '.bg-selected-from-primary-200': { backgroundSelectedGradient: { colors: [ '#00cad2d7', '#cad2d7' ] } }
@@ -3733,6 +3729,7 @@
 '.bg-selected-from-cornflower-blue-800': { backgroundSelectedGradient: { colors: [ '#00383c9b', '#383c9b' ] } }
 '.bg-selected-from-cornflower-blue-900': { backgroundSelectedGradient: { colors: [ '#00343a7b', '#343a7b' ] } }
 '.bg-selected-from-cornflower-blue': { backgroundSelectedGradient: { colors: [ '#007281e8', '#7281e8' ] } }
+'.bg-selected-from-vesuvius': { backgroundSelectedGradient: { colors: [ '#00bc560a', '#bc560a' ] } }
 
 // Property(ies): backgroundSelectedGradient: colors - To Color - iOS Only
 // Component(s): Ti.UI.ListItem, Ti.UI.View
@@ -3959,8 +3956,6 @@
 '.bg-selected-to-rose-700': { backgroundSelectedGradient: { colors: [ '#be123c' ] } }
 '.bg-selected-to-rose-800': { backgroundSelectedGradient: { colors: [ '#9f1239' ] } }
 '.bg-selected-to-rose-900': { backgroundSelectedGradient: { colors: [ '#881337' ] } }
-'.bg-selected-to-kingfisher-daisy': { backgroundSelectedGradient: { colors: [ '#38069a' ] } }
-'.bg-selected-to-olive-drab': { backgroundSelectedGradient: { colors: [ '#5cb22c' ] } }
 '.bg-selected-to-primary-50': { backgroundSelectedGradient: { colors: [ '#f4f6f7' ] } }
 '.bg-selected-to-primary-100': { backgroundSelectedGradient: { colors: [ '#e3e7ea' ] } }
 '.bg-selected-to-primary-200': { backgroundSelectedGradient: { colors: [ '#cad2d7' ] } }
@@ -4027,6 +4022,7 @@
 '.bg-selected-to-cornflower-blue-800': { backgroundSelectedGradient: { colors: [ '#383c9b' ] } }
 '.bg-selected-to-cornflower-blue-900': { backgroundSelectedGradient: { colors: [ '#343a7b' ] } }
 '.bg-selected-to-cornflower-blue': { backgroundSelectedGradient: { colors: [ '#7281e8' ] } }
+'.bg-selected-to-vesuvius': { backgroundSelectedGradient: { colors: [ '#bc560a' ] } }
 
 // Property(ies): color
 // Component(s): Ti.UI.Button, Ti.UI.Label, Ti.UI.PickerRow, Ti.UI.SearchBar, Ti.UI.TextArea, Ti.UI.ActivityIndicator, Ti.UI.Animation, Ti.UI.ListItem, Ti.UI.ProgressBar, Ti.UI.Switch, Ti.UI.TableViewRow, Ti.UI.TextField, Ti.UI.Android.SearchView
@@ -4253,8 +4249,6 @@
 '.text-rose-700': { color: '#be123c', textColor: '#be123c' }
 '.text-rose-800': { color: '#9f1239', textColor: '#9f1239' }
 '.text-rose-900': { color: '#881337', textColor: '#881337' }
-'.text-kingfisher-daisy': { color: '#38069a', textColor: '#38069a' }
-'.text-olive-drab': { color: '#5cb22c', textColor: '#5cb22c' }
 '.text-primary-50': { color: '#f4f6f7', textColor: '#f4f6f7' }
 '.text-primary-100': { color: '#e3e7ea', textColor: '#e3e7ea' }
 '.text-primary-200': { color: '#cad2d7', textColor: '#cad2d7' }
@@ -4321,6 +4315,7 @@
 '.text-cornflower-blue-800': { color: '#383c9b', textColor: '#383c9b' }
 '.text-cornflower-blue-900': { color: '#343a7b', textColor: '#343a7b' }
 '.text-cornflower-blue': { color: '#7281e8', textColor: '#7281e8' }
+'.text-vesuvius': { color: '#bc560a', textColor: '#bc560a' }
 
 // Property(ies): hintTextColor ( Alternative )
 // Component(s): Ti.UI.Android.SearchView, Ti.UI.SearchBar, Ti.UI.TextArea, Ti.UI.TextField
@@ -4547,8 +4542,6 @@
 '.placeholder-rose-700': { hintTextColor: '#be123c' }
 '.placeholder-rose-800': { hintTextColor: '#9f1239' }
 '.placeholder-rose-900': { hintTextColor: '#881337' }
-'.placeholder-kingfisher-daisy': { hintTextColor: '#38069a' }
-'.placeholder-olive-drab': { hintTextColor: '#5cb22c' }
 '.placeholder-primary-50': { hintTextColor: '#f4f6f7' }
 '.placeholder-primary-100': { hintTextColor: '#e3e7ea' }
 '.placeholder-primary-200': { hintTextColor: '#cad2d7' }
@@ -4615,6 +4608,7 @@
 '.placeholder-cornflower-blue-800': { hintTextColor: '#383c9b' }
 '.placeholder-cornflower-blue-900': { hintTextColor: '#343a7b' }
 '.placeholder-cornflower-blue': { hintTextColor: '#7281e8' }
+'.placeholder-vesuvius': { hintTextColor: '#bc560a' }
 
 // Property(ies): titleAttributes: color - iOS Only
 // Component(s): Ti.UI.TabGroup, Ti.UI.Window
@@ -4841,8 +4835,6 @@
 '.title-attributes-rose-700': { titleAttributes: { color: '#be123c' } }
 '.title-attributes-rose-800': { titleAttributes: { color: '#9f1239' } }
 '.title-attributes-rose-900': { titleAttributes: { color: '#881337' } }
-'.title-attributes-kingfisher-daisy': { titleAttributes: { color: '#38069a' } }
-'.title-attributes-olive-drab': { titleAttributes: { color: '#5cb22c' } }
 '.title-attributes-primary-50': { titleAttributes: { color: '#f4f6f7' } }
 '.title-attributes-primary-100': { titleAttributes: { color: '#e3e7ea' } }
 '.title-attributes-primary-200': { titleAttributes: { color: '#cad2d7' } }
@@ -4909,6 +4901,7 @@
 '.title-attributes-cornflower-blue-800': { titleAttributes: { color: '#383c9b' } }
 '.title-attributes-cornflower-blue-900': { titleAttributes: { color: '#343a7b' } }
 '.title-attributes-cornflower-blue': { titleAttributes: { color: '#7281e8' } }
+'.title-attributes-vesuvius': { titleAttributes: { color: '#bc560a' } }
 
 // Property(ies): titleAttributes: shadow - iOS Only
 // Component(s): Ti.UI.TabGroup, Ti.UI.Window
@@ -5135,8 +5128,6 @@
 '.title-attributes-shadow-rose-700': { titleAttributes: { shadow: { color: '#be123c' } } }
 '.title-attributes-shadow-rose-800': { titleAttributes: { shadow: { color: '#9f1239' } } }
 '.title-attributes-shadow-rose-900': { titleAttributes: { shadow: { color: '#881337' } } }
-'.title-attributes-shadow-kingfisher-daisy': { titleAttributes: { shadow: { color: '#38069a' } } }
-'.title-attributes-shadow-olive-drab': { titleAttributes: { shadow: { color: '#5cb22c' } } }
 '.title-attributes-shadow-primary-50': { titleAttributes: { shadow: { color: '#f4f6f7' } } }
 '.title-attributes-shadow-primary-100': { titleAttributes: { shadow: { color: '#e3e7ea' } } }
 '.title-attributes-shadow-primary-200': { titleAttributes: { shadow: { color: '#cad2d7' } } }
@@ -5203,6 +5194,7 @@
 '.title-attributes-shadow-cornflower-blue-800': { titleAttributes: { shadow: { color: '#383c9b' } } }
 '.title-attributes-shadow-cornflower-blue-900': { titleAttributes: { shadow: { color: '#343a7b' } } }
 '.title-attributes-shadow-cornflower-blue': { titleAttributes: { shadow: { color: '#7281e8' } } }
+'.title-attributes-shadow-vesuvius': { titleAttributes: { shadow: { color: '#bc560a' } } }
 
 // Property: bubbleParent
 // Description: Indicates if the proxy will bubble an event to its parent.
@@ -5441,8 +5433,6 @@
 '.bg-rose-700': { backgroundColor: '#be123c' }
 '.bg-rose-800': { backgroundColor: '#9f1239' }
 '.bg-rose-900': { backgroundColor: '#881337' }
-'.bg-kingfisher-daisy': { backgroundColor: '#38069a' }
-'.bg-olive-drab': { backgroundColor: '#5cb22c' }
 '.bg-primary-50': { backgroundColor: '#f4f6f7' }
 '.bg-primary-100': { backgroundColor: '#e3e7ea' }
 '.bg-primary-200': { backgroundColor: '#cad2d7' }
@@ -5509,6 +5499,7 @@
 '.bg-cornflower-blue-800': { backgroundColor: '#383c9b' }
 '.bg-cornflower-blue-900': { backgroundColor: '#343a7b' }
 '.bg-cornflower-blue': { backgroundColor: '#7281e8' }
+'.bg-vesuvius': { backgroundColor: '#bc560a' }
 
 // Property: backgroundDisabledColor
 // Description: Disabled background color of the view, as a color name or hex triplet.
@@ -5736,8 +5727,6 @@
 '.bg-disabled-rose-700': { backgroundDisabledColor: '#be123c' }
 '.bg-disabled-rose-800': { backgroundDisabledColor: '#9f1239' }
 '.bg-disabled-rose-900': { backgroundDisabledColor: '#881337' }
-'.bg-disabled-kingfisher-daisy': { backgroundDisabledColor: '#38069a' }
-'.bg-disabled-olive-drab': { backgroundDisabledColor: '#5cb22c' }
 '.bg-disabled-primary-50': { backgroundDisabledColor: '#f4f6f7' }
 '.bg-disabled-primary-100': { backgroundDisabledColor: '#e3e7ea' }
 '.bg-disabled-primary-200': { backgroundDisabledColor: '#cad2d7' }
@@ -5804,6 +5793,7 @@
 '.bg-disabled-cornflower-blue-800': { backgroundDisabledColor: '#383c9b' }
 '.bg-disabled-cornflower-blue-900': { backgroundDisabledColor: '#343a7b' }
 '.bg-disabled-cornflower-blue': { backgroundDisabledColor: '#7281e8' }
+'.bg-disabled-vesuvius': { backgroundDisabledColor: '#bc560a' }
 
 // Property: backgroundFocusedColor
 // Component(s): Ti.UI.View, Ti.Media.VideoPlayer, Ti.UI.Android.CardView, Ti.UI.Android.DrawerLayout, Ti.UI.Android.SearchView, Ti.UI.Button, Ti.UI.ButtonBar, Ti.UI.ImageView, Ti.UI.Label, Ti.UI.ListView, Ti.UI.MaskedImage, Ti.UI.NavigationWindow, Ti.UI.OptionBar, Ti.UI.PickerRow, Ti.UI.ProgressBar, Ti.UI.ScrollView, Ti.UI.ScrollableView, Ti.UI.SearchBar, Ti.UI.Slider, Ti.UI.Switch, Ti.UI.Tab, Ti.UI.TabbedBar, Ti.UI.TableView, Ti.UI.TableViewRow, Ti.UI.TextArea, Ti.UI.TextField, Ti.UI.WebView, Ti.UI.Window
@@ -6030,8 +6020,6 @@
 '.bg-focused-rose-700': { backgroundFocusedColor: '#be123c' }
 '.bg-focused-rose-800': { backgroundFocusedColor: '#9f1239' }
 '.bg-focused-rose-900': { backgroundFocusedColor: '#881337' }
-'.bg-focused-kingfisher-daisy': { backgroundFocusedColor: '#38069a' }
-'.bg-focused-olive-drab': { backgroundFocusedColor: '#5cb22c' }
 '.bg-focused-primary-50': { backgroundFocusedColor: '#f4f6f7' }
 '.bg-focused-primary-100': { backgroundFocusedColor: '#e3e7ea' }
 '.bg-focused-primary-200': { backgroundFocusedColor: '#cad2d7' }
@@ -6098,6 +6086,7 @@
 '.bg-focused-cornflower-blue-800': { backgroundFocusedColor: '#383c9b' }
 '.bg-focused-cornflower-blue-900': { backgroundFocusedColor: '#343a7b' }
 '.bg-focused-cornflower-blue': { backgroundFocusedColor: '#7281e8' }
+'.bg-focused-vesuvius': { backgroundFocusedColor: '#bc560a' }
 
 // Property: backgroundRepeat
 // Description: Determines whether to tile a background across a view.
@@ -6369,8 +6358,6 @@
 '.bg-selected-rose-700': { backgroundSelectedColor: '#be123c' }
 '.bg-selected-rose-800': { backgroundSelectedColor: '#9f1239' }
 '.bg-selected-rose-900': { backgroundSelectedColor: '#881337' }
-'.bg-selected-kingfisher-daisy': { backgroundSelectedColor: '#38069a' }
-'.bg-selected-olive-drab': { backgroundSelectedColor: '#5cb22c' }
 '.bg-selected-primary-50': { backgroundSelectedColor: '#f4f6f7' }
 '.bg-selected-primary-100': { backgroundSelectedColor: '#e3e7ea' }
 '.bg-selected-primary-200': { backgroundSelectedColor: '#cad2d7' }
@@ -6437,6 +6424,7 @@
 '.bg-selected-cornflower-blue-800': { backgroundSelectedColor: '#383c9b' }
 '.bg-selected-cornflower-blue-900': { backgroundSelectedColor: '#343a7b' }
 '.bg-selected-cornflower-blue': { backgroundSelectedColor: '#7281e8' }
+'.bg-selected-vesuvius': { backgroundSelectedColor: '#bc560a' }
 
 // Property: backgroundTopCap
 // Description: Size of the top end cap.
@@ -6703,8 +6691,6 @@
 '.border-rose-700': { borderColor: '#be123c' }
 '.border-rose-800': { borderColor: '#9f1239' }
 '.border-rose-900': { borderColor: '#881337' }
-'.border-kingfisher-daisy': { borderColor: '#38069a' }
-'.border-olive-drab': { borderColor: '#5cb22c' }
 '.border-primary-50': { borderColor: '#f4f6f7' }
 '.border-primary-100': { borderColor: '#e3e7ea' }
 '.border-primary-200': { borderColor: '#cad2d7' }
@@ -6771,6 +6757,7 @@
 '.border-cornflower-blue-800': { borderColor: '#383c9b' }
 '.border-cornflower-blue-900': { borderColor: '#343a7b' }
 '.border-cornflower-blue': { borderColor: '#7281e8' }
+'.border-vesuvius': { borderColor: '#bc560a' }
 
 // Property: borderRadius
 // Component(s): Ti.UI.View, Ti.Media.VideoPlayer, Ti.UI.Android.CardView, Ti.UI.Android.DrawerLayout, Ti.UI.Android.SearchView, Ti.UI.Button, Ti.UI.ButtonBar, Ti.UI.DashboardView, Ti.UI.ImageView, Ti.UI.Label, Ti.UI.ListView, Ti.UI.MaskedImage, Ti.UI.NavigationWindow, Ti.UI.OptionBar, Ti.UI.Picker, Ti.UI.PickerRow, Ti.UI.ProgressBar, Ti.UI.ScrollView, Ti.UI.ScrollableView, Ti.UI.SearchBar, Ti.UI.Slider, Ti.UI.Switch, Ti.UI.TabbedBar, Ti.UI.TableView, Ti.UI.TableViewRow, Ti.UI.TextArea, Ti.UI.TextField, Ti.UI.Toolbar, Ti.UI.WebView, Ti.UI.Window, Ti.UI.iOS.BlurView, Ti.UI.iOS.CoverFlowView, Ti.UI.iOS.LivePhotoView, Ti.UI.iOS.SplitWindow, Ti.UI.iOS.Stepper
@@ -7347,8 +7334,6 @@
 '.pull-bg-rose-700': { pullBackgroundColor: '#be123c' }
 '.pull-bg-rose-800': { pullBackgroundColor: '#9f1239' }
 '.pull-bg-rose-900': { pullBackgroundColor: '#881337' }
-'.pull-bg-kingfisher-daisy': { pullBackgroundColor: '#38069a' }
-'.pull-bg-olive-drab': { pullBackgroundColor: '#5cb22c' }
 '.pull-bg-primary-50': { pullBackgroundColor: '#f4f6f7' }
 '.pull-bg-primary-100': { pullBackgroundColor: '#e3e7ea' }
 '.pull-bg-primary-200': { pullBackgroundColor: '#cad2d7' }
@@ -7415,6 +7400,7 @@
 '.pull-bg-cornflower-blue-800': { pullBackgroundColor: '#383c9b' }
 '.pull-bg-cornflower-blue-900': { pullBackgroundColor: '#343a7b' }
 '.pull-bg-cornflower-blue': { pullBackgroundColor: '#7281e8' }
+'.pull-bg-vesuvius': { pullBackgroundColor: '#bc560a' }
 
 // Property: right
 // Component(s): Ti.UI.View, Ti.Media.VideoPlayer, Ti.UI.ActivityIndicator, Ti.UI.Android.CardView, Ti.UI.Android.DrawerLayout, Ti.UI.Android.SearchView, Ti.UI.Animation, Ti.UI.Button, Ti.UI.ButtonBar, Ti.UI.DashboardView, Ti.UI.ImageView, Ti.UI.Label, Ti.UI.ListView, Ti.UI.MaskedImage, Ti.UI.NavigationWindow, Ti.UI.OptionBar, HorizontalInsets, Padding, Ti.UI.Picker, Ti.UI.PickerRow, Ti.UI.ProgressBar, Ti.UI.ScrollView, Ti.UI.ScrollableView, Ti.UI.SearchBar, Ti.UI.Slider, Ti.UI.Switch, Ti.UI.TabbedBar, Ti.UI.TableView, Ti.UI.TableViewRow, Ti.UI.TextArea, Ti.UI.TextField, TextFieldPadding, Ti.UI.Toolbar, Ti.UI.WebView, Ti.UI.Window, openWindowParams, Ti.UI.iOS.BlurView, Ti.UI.iOS.CoverFlowView, Ti.UI.iOS.LivePhotoView, Ti.UI.iOS.SplitWindow, Ti.UI.iOS.Stepper
@@ -7750,8 +7736,6 @@
 '.tint-rose-700': { tintColor: '#be123c' }
 '.tint-rose-800': { tintColor: '#9f1239' }
 '.tint-rose-900': { tintColor: '#881337' }
-'.tint-kingfisher-daisy': { tintColor: '#38069a' }
-'.tint-olive-drab': { tintColor: '#5cb22c' }
 '.tint-primary-50': { tintColor: '#f4f6f7' }
 '.tint-primary-100': { tintColor: '#e3e7ea' }
 '.tint-primary-200': { tintColor: '#cad2d7' }
@@ -7818,6 +7802,7 @@
 '.tint-cornflower-blue-800': { tintColor: '#383c9b' }
 '.tint-cornflower-blue-900': { tintColor: '#343a7b' }
 '.tint-cornflower-blue': { tintColor: '#7281e8' }
+'.tint-vesuvius': { tintColor: '#bc560a' }
 
 // Property: top
 // Component(s): Ti.UI.View, Ti.Media.VideoPlayer, Ti.UI.ActivityIndicator, Ti.UI.Android.CardView, Ti.UI.Android.DrawerLayout, Ti.UI.Android.SearchView, Ti.UI.Animation, Ti.UI.Button, Ti.UI.ButtonBar, Ti.UI.DashboardView, Ti.UI.ImageView, Ti.UI.Label, Ti.UI.ListView, Ti.UI.MaskedImage, Ti.UI.NavigationWindow, Ti.UI.OptionBar, Padding, Ti.UI.Picker, Ti.UI.PickerRow, Ti.UI.ProgressBar, Ti.UI.ScrollView, Ti.UI.ScrollableView, Ti.UI.SearchBar, Ti.UI.Slider, Ti.UI.Switch, TabIconInsets, Ti.UI.TabbedBar, Ti.UI.TableView, Ti.UI.TableViewRow, Ti.UI.TextArea, Ti.UI.TextField, TextFieldPadding, Ti.UI.Toolbar, Ti.UI.WebView, Ti.UI.Window, openWindowParams, Ti.UI.iOS.BlurView, Ti.UI.iOS.CoverFlowView, Ti.UI.iOS.LivePhotoView, Ti.UI.iOS.SplitWindow, Ti.UI.iOS.Stepper
@@ -8123,8 +8108,6 @@
 '.touch-feedback-rose-700': { touchFeedbackColor: '#be123c' }
 '.touch-feedback-rose-800': { touchFeedbackColor: '#9f1239' }
 '.touch-feedback-rose-900': { touchFeedbackColor: '#881337' }
-'.touch-feedback-kingfisher-daisy': { touchFeedbackColor: '#38069a' }
-'.touch-feedback-olive-drab': { touchFeedbackColor: '#5cb22c' }
 '.touch-feedback-primary-50': { touchFeedbackColor: '#f4f6f7' }
 '.touch-feedback-primary-100': { touchFeedbackColor: '#e3e7ea' }
 '.touch-feedback-primary-200': { touchFeedbackColor: '#cad2d7' }
@@ -8191,6 +8174,7 @@
 '.touch-feedback-cornflower-blue-800': { touchFeedbackColor: '#383c9b' }
 '.touch-feedback-cornflower-blue-900': { touchFeedbackColor: '#343a7b' }
 '.touch-feedback-cornflower-blue': { touchFeedbackColor: '#7281e8' }
+'.touch-feedback-vesuvius': { touchFeedbackColor: '#bc560a' }
 
 // Property: viewShadowColor
 // Description: Determines the color of the shadow.
@@ -8418,8 +8402,6 @@
 '.view-shadow-rose-700': { viewShadowColor: '#be123c' }
 '.view-shadow-rose-800': { viewShadowColor: '#9f1239' }
 '.view-shadow-rose-900': { viewShadowColor: '#881337' }
-'.view-shadow-kingfisher-daisy': { viewShadowColor: '#38069a' }
-'.view-shadow-olive-drab': { viewShadowColor: '#5cb22c' }
 '.view-shadow-primary-50': { viewShadowColor: '#f4f6f7' }
 '.view-shadow-primary-100': { viewShadowColor: '#e3e7ea' }
 '.view-shadow-primary-200': { viewShadowColor: '#cad2d7' }
@@ -8486,6 +8468,7 @@
 '.view-shadow-cornflower-blue-800': { viewShadowColor: '#383c9b' }
 '.view-shadow-cornflower-blue-900': { viewShadowColor: '#343a7b' }
 '.view-shadow-cornflower-blue': { viewShadowColor: '#7281e8' }
+'.view-shadow-vesuvius': { viewShadowColor: '#bc560a' }
 
 // Property: visible
 // Component(s): Ti.UI.View, Ti.Android.ActionBar, Ti.Android.MenuItem, Ti.Media.VideoPlayer, Ti.UI.Android.CardView, Ti.UI.Android.DrawerLayout, Ti.UI.Android.SearchView, Ti.UI.Animation, Ti.UI.Button, Ti.UI.ButtonBar, Ti.UI.DashboardView, Ti.UI.ImageView, Ti.UI.Label, Ti.UI.ListView, Ti.UI.MaskedImage, Ti.UI.NavigationWindow, Ti.UI.OptionBar, Ti.UI.Picker, Ti.UI.PickerRow, Ti.UI.ProgressBar, Ti.UI.ScrollView, Ti.UI.ScrollableView, Ti.UI.SearchBar, Ti.UI.ShortcutItem, Ti.UI.Slider, Ti.UI.Switch, Ti.UI.TabGroup, Ti.UI.TabbedBar, Ti.UI.TableView, Ti.UI.TableViewRow, Ti.UI.TextArea, Ti.UI.TextField, Ti.UI.Toolbar, Ti.UI.WebView, Ti.UI.Window, Ti.UI.iOS.BlurView, Ti.UI.iOS.CoverFlowView, Ti.UI.iOS.LivePhotoView, Ti.UI.iOS.SplitWindow, Ti.UI.iOS.Stepper
@@ -8994,8 +8977,6 @@
 '.colors-rose-700': { colors: '#be123c' }
 '.colors-rose-800': { colors: '#9f1239' }
 '.colors-rose-900': { colors: '#881337' }
-'.colors-kingfisher-daisy': { colors: '#38069a' }
-'.colors-olive-drab': { colors: '#5cb22c' }
 '.colors-primary-50': { colors: '#f4f6f7' }
 '.colors-primary-100': { colors: '#e3e7ea' }
 '.colors-primary-200': { colors: '#cad2d7' }
@@ -9062,6 +9043,7 @@
 '.colors-cornflower-blue-800': { colors: '#383c9b' }
 '.colors-cornflower-blue-900': { colors: '#343a7b' }
 '.colors-cornflower-blue': { colors: '#7281e8' }
+'.colors-vesuvius': { colors: '#bc560a' }
 
 // Property: customInspect
 // Description: If false, [util.inspect.custom](depth, opts) functions are not invoked.
@@ -9515,8 +9497,6 @@
 '.rose-700': { color: '#be123c' }
 '.rose-800': { color: '#9f1239' }
 '.rose-900': { color: '#881337' }
-'.kingfisher-daisy': { color: '#38069a' }
-'.olive-drab': { color: '#5cb22c' }
 '.primary-50': { color: '#f4f6f7' }
 '.primary-100': { color: '#e3e7ea' }
 '.primary-200': { color: '#cad2d7' }
@@ -9583,6 +9563,7 @@
 '.cornflower-blue-800': { color: '#383c9b' }
 '.cornflower-blue-900': { color: '#343a7b' }
 '.cornflower-blue': { color: '#7281e8' }
+'.vesuvius': { color: '#bc560a' }
 
 // Property: visibility
 // Component(s): Ti.Android.Notification, Ti.Calendar.Event
@@ -9849,8 +9830,6 @@
 '.light-rose-700': { lightColor: '#be123c' }
 '.light-rose-800': { lightColor: '#9f1239' }
 '.light-rose-900': { lightColor: '#881337' }
-'.light-kingfisher-daisy': { lightColor: '#38069a' }
-'.light-olive-drab': { lightColor: '#5cb22c' }
 '.light-primary-50': { lightColor: '#f4f6f7' }
 '.light-primary-100': { lightColor: '#e3e7ea' }
 '.light-primary-200': { lightColor: '#cad2d7' }
@@ -9917,6 +9896,7 @@
 '.light-cornflower-blue-800': { lightColor: '#383c9b' }
 '.light-cornflower-blue-900': { lightColor: '#343a7b' }
 '.light-cornflower-blue': { lightColor: '#7281e8' }
+'.light-vesuvius': { lightColor: '#bc560a' }
 
 // Property: lockscreenVisibility
 // Description: Whether or not notifications posted to this channel are shown on the lockscreen in full or redacted form.
@@ -11477,8 +11457,6 @@
 '.indicator-rose-700': { indicatorColor: '#be123c' }
 '.indicator-rose-800': { indicatorColor: '#9f1239' }
 '.indicator-rose-900': { indicatorColor: '#881337' }
-'.indicator-kingfisher-daisy': { indicatorColor: '#38069a' }
-'.indicator-olive-drab': { indicatorColor: '#5cb22c' }
 '.indicator-primary-50': { indicatorColor: '#f4f6f7' }
 '.indicator-primary-100': { indicatorColor: '#e3e7ea' }
 '.indicator-primary-200': { indicatorColor: '#cad2d7' }
@@ -11545,6 +11523,7 @@
 '.indicator-cornflower-blue-800': { indicatorColor: '#383c9b' }
 '.indicator-cornflower-blue-900': { indicatorColor: '#343a7b' }
 '.indicator-cornflower-blue': { indicatorColor: '#7281e8' }
+'.indicator-vesuvius': { indicatorColor: '#bc560a' }
 
 // Property: buttonClickRequired
 // Description: Setting this to true requires the end-user to click a dialog button to close the dialog.
@@ -12337,8 +12316,6 @@
 '.hint-text-rose-700': { hintTextColor: '#be123c' }
 '.hint-text-rose-800': { hintTextColor: '#9f1239' }
 '.hint-text-rose-900': { hintTextColor: '#881337' }
-'.hint-text-kingfisher-daisy': { hintTextColor: '#38069a' }
-'.hint-text-olive-drab': { hintTextColor: '#5cb22c' }
 '.hint-text-primary-50': { hintTextColor: '#f4f6f7' }
 '.hint-text-primary-100': { hintTextColor: '#e3e7ea' }
 '.hint-text-primary-200': { hintTextColor: '#cad2d7' }
@@ -12405,6 +12382,7 @@
 '.hint-text-cornflower-blue-800': { hintTextColor: '#383c9b' }
 '.hint-text-cornflower-blue-900': { hintTextColor: '#343a7b' }
 '.hint-text-cornflower-blue': { hintTextColor: '#7281e8' }
+'.hint-text-vesuvius': { hintTextColor: '#bc560a' }
 
 // Property: iconified
 // Component(s): Ti.UI.Android.SearchView, Ti.UI.SearchBar
@@ -13107,8 +13085,6 @@
 '.disabled-rose-700': { disabledColor: '#be123c' }
 '.disabled-rose-800': { disabledColor: '#9f1239' }
 '.disabled-rose-900': { disabledColor: '#881337' }
-'.disabled-kingfisher-daisy': { disabledColor: '#38069a' }
-'.disabled-olive-drab': { disabledColor: '#5cb22c' }
 '.disabled-primary-50': { disabledColor: '#f4f6f7' }
 '.disabled-primary-100': { disabledColor: '#e3e7ea' }
 '.disabled-primary-200': { disabledColor: '#cad2d7' }
@@ -13175,6 +13151,7 @@
 '.disabled-cornflower-blue-800': { disabledColor: '#383c9b' }
 '.disabled-cornflower-blue-900': { disabledColor: '#343a7b' }
 '.disabled-cornflower-blue': { disabledColor: '#7281e8' }
+'.disabled-vesuvius': { disabledColor: '#bc560a' }
 
 // Property: imageIsMask
 // Description: Set true to tint the button image. Set false to show the image as-is.
@@ -13407,8 +13384,6 @@
 '.selected-rose-700': { selectedColor: '#be123c' }
 '.selected-rose-800': { selectedColor: '#9f1239' }
 '.selected-rose-900': { selectedColor: '#881337' }
-'.selected-kingfisher-daisy': { selectedColor: '#38069a' }
-'.selected-olive-drab': { selectedColor: '#5cb22c' }
 '.selected-primary-50': { selectedColor: '#f4f6f7' }
 '.selected-primary-100': { selectedColor: '#e3e7ea' }
 '.selected-primary-200': { selectedColor: '#cad2d7' }
@@ -13475,6 +13450,7 @@
 '.selected-cornflower-blue-800': { selectedColor: '#383c9b' }
 '.selected-cornflower-blue-900': { selectedColor: '#343a7b' }
 '.selected-cornflower-blue': { selectedColor: '#7281e8' }
+'.selected-vesuvius': { selectedColor: '#bc560a' }
 
 // Property: shadowColor
 // Component(s): Ti.UI.Button, Ti.UI.Label
@@ -13701,8 +13677,6 @@
 '.shadow-rose-700': { shadowColor: '#be123c' }
 '.shadow-rose-800': { shadowColor: '#9f1239' }
 '.shadow-rose-900': { shadowColor: '#881337' }
-'.shadow-kingfisher-daisy': { shadowColor: '#38069a' }
-'.shadow-olive-drab': { shadowColor: '#5cb22c' }
 '.shadow-primary-50': { shadowColor: '#f4f6f7' }
 '.shadow-primary-100': { shadowColor: '#e3e7ea' }
 '.shadow-primary-200': { shadowColor: '#cad2d7' }
@@ -13769,6 +13743,7 @@
 '.shadow-cornflower-blue-800': { shadowColor: '#383c9b' }
 '.shadow-cornflower-blue-900': { shadowColor: '#343a7b' }
 '.shadow-cornflower-blue': { shadowColor: '#7281e8' }
+'.shadow-vesuvius': { shadowColor: '#bc560a' }
 
 // Property: shadowRadius
 // Component(s): Ti.UI.Button, Ti.UI.Label
@@ -14077,8 +14052,6 @@
 '.selected-text-rose-700': { selectedTextColor: '#be123c' }
 '.selected-text-rose-800': { selectedTextColor: '#9f1239' }
 '.selected-text-rose-900': { selectedTextColor: '#881337' }
-'.selected-text-kingfisher-daisy': { selectedTextColor: '#38069a' }
-'.selected-text-olive-drab': { selectedTextColor: '#5cb22c' }
 '.selected-text-primary-50': { selectedTextColor: '#f4f6f7' }
 '.selected-text-primary-100': { selectedTextColor: '#e3e7ea' }
 '.selected-text-primary-200': { selectedTextColor: '#cad2d7' }
@@ -14145,6 +14118,7 @@
 '.selected-text-cornflower-blue-800': { selectedTextColor: '#383c9b' }
 '.selected-text-cornflower-blue-900': { selectedTextColor: '#343a7b' }
 '.selected-text-cornflower-blue': { selectedTextColor: '#7281e8' }
+'.selected-text-vesuvius': { selectedTextColor: '#bc560a' }
 
 // Property: selectedButtonColor
 // Description: Color of selected button, as a color name or hex triplet.
@@ -14372,8 +14346,6 @@
 '.selected-button-rose-700': { selectedButtonColor: '#be123c' }
 '.selected-button-rose-800': { selectedButtonColor: '#9f1239' }
 '.selected-button-rose-900': { selectedButtonColor: '#881337' }
-'.selected-button-kingfisher-daisy': { selectedButtonColor: '#38069a' }
-'.selected-button-olive-drab': { selectedButtonColor: '#5cb22c' }
 '.selected-button-primary-50': { selectedButtonColor: '#f4f6f7' }
 '.selected-button-primary-100': { selectedButtonColor: '#e3e7ea' }
 '.selected-button-primary-200': { selectedButtonColor: '#cad2d7' }
@@ -14440,6 +14412,7 @@
 '.selected-button-cornflower-blue-800': { selectedButtonColor: '#383c9b' }
 '.selected-button-cornflower-blue-900': { selectedButtonColor: '#343a7b' }
 '.selected-button-cornflower-blue': { selectedButtonColor: '#7281e8' }
+'.selected-button-vesuvius': { selectedButtonColor: '#bc560a' }
 
 // Property: unique
 // Description: Create a new clipboard identified by a unique system-generated name.
@@ -14711,8 +14684,6 @@
 '.bar-rose-700': { barColor: '#be123c' }
 '.bar-rose-800': { barColor: '#9f1239' }
 '.bar-rose-900': { barColor: '#881337' }
-'.bar-kingfisher-daisy': { barColor: '#38069a' }
-'.bar-olive-drab': { barColor: '#5cb22c' }
 '.bar-primary-50': { barColor: '#f4f6f7' }
 '.bar-primary-100': { barColor: '#e3e7ea' }
 '.bar-primary-200': { barColor: '#cad2d7' }
@@ -14779,6 +14750,7 @@
 '.bar-cornflower-blue-800': { barColor: '#383c9b' }
 '.bar-cornflower-blue-900': { barColor: '#343a7b' }
 '.bar-cornflower-blue': { barColor: '#7281e8' }
+'.bar-vesuvius': { barColor: '#bc560a' }
 
 // Property: html
 // Component(s): Ti.UI.EmailDialog, Ti.UI.Label, Ti.UI.WebView
@@ -15043,8 +15015,6 @@
 '.image-touch-feedback-rose-700': { imageTouchFeedbackColor: '#be123c' }
 '.image-touch-feedback-rose-800': { imageTouchFeedbackColor: '#9f1239' }
 '.image-touch-feedback-rose-900': { imageTouchFeedbackColor: '#881337' }
-'.image-touch-feedback-kingfisher-daisy': { imageTouchFeedbackColor: '#38069a' }
-'.image-touch-feedback-olive-drab': { imageTouchFeedbackColor: '#5cb22c' }
 '.image-touch-feedback-primary-50': { imageTouchFeedbackColor: '#f4f6f7' }
 '.image-touch-feedback-primary-100': { imageTouchFeedbackColor: '#e3e7ea' }
 '.image-touch-feedback-primary-200': { imageTouchFeedbackColor: '#cad2d7' }
@@ -15111,6 +15081,7 @@
 '.image-touch-feedback-cornflower-blue-800': { imageTouchFeedbackColor: '#383c9b' }
 '.image-touch-feedback-cornflower-blue-900': { imageTouchFeedbackColor: '#343a7b' }
 '.image-touch-feedback-cornflower-blue': { imageTouchFeedbackColor: '#7281e8' }
+'.image-touch-feedback-vesuvius': { imageTouchFeedbackColor: '#bc560a' }
 
 // Property: preventDefaultImage
 // Description: Prevent the default image from being displayed while loading a remote image. This property is ignored when the defaultImage property is set.
@@ -15549,8 +15520,6 @@
 '.highlighted-rose-700': { highlightedColor: '#be123c' }
 '.highlighted-rose-800': { highlightedColor: '#9f1239' }
 '.highlighted-rose-900': { highlightedColor: '#881337' }
-'.highlighted-kingfisher-daisy': { highlightedColor: '#38069a' }
-'.highlighted-olive-drab': { highlightedColor: '#5cb22c' }
 '.highlighted-primary-50': { highlightedColor: '#f4f6f7' }
 '.highlighted-primary-100': { highlightedColor: '#e3e7ea' }
 '.highlighted-primary-200': { highlightedColor: '#cad2d7' }
@@ -15617,6 +15586,7 @@
 '.highlighted-cornflower-blue-800': { highlightedColor: '#383c9b' }
 '.highlighted-cornflower-blue-900': { highlightedColor: '#343a7b' }
 '.highlighted-cornflower-blue': { highlightedColor: '#7281e8' }
+'.highlighted-vesuvius': { highlightedColor: '#bc560a' }
 
 // Property: includeFontPadding
 // Description: Includes extra top and bottom padding to make room for accents that go above normal ascent and descent.
@@ -15887,8 +15857,6 @@
 '.selected-bg-rose-700': { selectedBackgroundColor: '#be123c' }
 '.selected-bg-rose-800': { selectedBackgroundColor: '#9f1239' }
 '.selected-bg-rose-900': { selectedBackgroundColor: '#881337' }
-'.selected-bg-kingfisher-daisy': { selectedBackgroundColor: '#38069a' }
-'.selected-bg-olive-drab': { selectedBackgroundColor: '#5cb22c' }
 '.selected-bg-primary-50': { selectedBackgroundColor: '#f4f6f7' }
 '.selected-bg-primary-100': { selectedBackgroundColor: '#e3e7ea' }
 '.selected-bg-primary-200': { selectedBackgroundColor: '#cad2d7' }
@@ -15955,6 +15923,7 @@
 '.selected-bg-cornflower-blue-800': { selectedBackgroundColor: '#383c9b' }
 '.selected-bg-cornflower-blue-900': { selectedBackgroundColor: '#343a7b' }
 '.selected-bg-cornflower-blue': { selectedBackgroundColor: '#7281e8' }
+'.selected-bg-vesuvius': { selectedBackgroundColor: '#bc560a' }
 
 // Property: canEdit
 // Description: Specifies if the item can be deleted by a user initiated action.
@@ -16200,8 +16169,6 @@
 '.subtitle-rose-700': { subtitleColor: '#be123c' }
 '.subtitle-rose-800': { subtitleColor: '#9f1239' }
 '.subtitle-rose-900': { subtitleColor: '#881337' }
-'.subtitle-kingfisher-daisy': { subtitleColor: '#38069a' }
-'.subtitle-olive-drab': { subtitleColor: '#5cb22c' }
 '.subtitle-primary-50': { subtitleColor: '#f4f6f7' }
 '.subtitle-primary-100': { subtitleColor: '#e3e7ea' }
 '.subtitle-primary-200': { subtitleColor: '#cad2d7' }
@@ -16268,6 +16235,7 @@
 '.subtitle-cornflower-blue-800': { subtitleColor: '#383c9b' }
 '.subtitle-cornflower-blue-900': { subtitleColor: '#343a7b' }
 '.subtitle-cornflower-blue': { subtitleColor: '#7281e8' }
+'.subtitle-vesuvius': { subtitleColor: '#bc560a' }
 
 // Property: selectedSubtitleColor
 // Description: Color to use for the item subtitle when the item is selected, as a color name or hex triplet.
@@ -16495,8 +16463,6 @@
 '.selected-subtitle-rose-700': { selectedSubtitleColor: '#be123c' }
 '.selected-subtitle-rose-800': { selectedSubtitleColor: '#9f1239' }
 '.selected-subtitle-rose-900': { selectedSubtitleColor: '#881337' }
-'.selected-subtitle-kingfisher-daisy': { selectedSubtitleColor: '#38069a' }
-'.selected-subtitle-olive-drab': { selectedSubtitleColor: '#5cb22c' }
 '.selected-subtitle-primary-50': { selectedSubtitleColor: '#f4f6f7' }
 '.selected-subtitle-primary-100': { selectedSubtitleColor: '#e3e7ea' }
 '.selected-subtitle-primary-200': { selectedSubtitleColor: '#cad2d7' }
@@ -16563,6 +16529,7 @@
 '.selected-subtitle-cornflower-blue-800': { selectedSubtitleColor: '#383c9b' }
 '.selected-subtitle-cornflower-blue-900': { selectedSubtitleColor: '#343a7b' }
 '.selected-subtitle-cornflower-blue': { selectedSubtitleColor: '#7281e8' }
+'.selected-subtitle-vesuvius': { selectedSubtitleColor: '#bc560a' }
 
 // Property: allowsSelection
 // Component(s): Ti.UI.ListView, Ti.UI.TableView
@@ -16992,8 +16959,6 @@
 '.separator-rose-700': { separatorColor: '#be123c' }
 '.separator-rose-800': { separatorColor: '#9f1239' }
 '.separator-rose-900': { separatorColor: '#881337' }
-'.separator-kingfisher-daisy': { separatorColor: '#38069a' }
-'.separator-olive-drab': { separatorColor: '#5cb22c' }
 '.separator-primary-50': { separatorColor: '#f4f6f7' }
 '.separator-primary-100': { separatorColor: '#e3e7ea' }
 '.separator-primary-200': { separatorColor: '#cad2d7' }
@@ -17060,6 +17025,7 @@
 '.separator-cornflower-blue-800': { separatorColor: '#383c9b' }
 '.separator-cornflower-blue-900': { separatorColor: '#343a7b' }
 '.separator-cornflower-blue': { separatorColor: '#7281e8' }
+'.separator-vesuvius': { separatorColor: '#bc560a' }
 
 // Property: separatorStyle
 // Description: Separator style constant.
@@ -17305,8 +17271,6 @@
 '.results-bg-rose-700': { resultsBackgroundColor: '#be123c' }
 '.results-bg-rose-800': { resultsBackgroundColor: '#9f1239' }
 '.results-bg-rose-900': { resultsBackgroundColor: '#881337' }
-'.results-bg-kingfisher-daisy': { resultsBackgroundColor: '#38069a' }
-'.results-bg-olive-drab': { resultsBackgroundColor: '#5cb22c' }
 '.results-bg-primary-50': { resultsBackgroundColor: '#f4f6f7' }
 '.results-bg-primary-100': { resultsBackgroundColor: '#e3e7ea' }
 '.results-bg-primary-200': { resultsBackgroundColor: '#cad2d7' }
@@ -17373,6 +17337,7 @@
 '.results-bg-cornflower-blue-800': { resultsBackgroundColor: '#383c9b' }
 '.results-bg-cornflower-blue-900': { resultsBackgroundColor: '#343a7b' }
 '.results-bg-cornflower-blue': { resultsBackgroundColor: '#7281e8' }
+'.results-bg-vesuvius': { resultsBackgroundColor: '#bc560a' }
 
 // Property: resultsSeparatorColor
 // Description: Separator line color between rows inside search results, as a color name or hex triplet (iOS-only).
@@ -17600,8 +17565,6 @@
 '.results-separator-rose-700': { resultsSeparatorColor: '#be123c' }
 '.results-separator-rose-800': { resultsSeparatorColor: '#9f1239' }
 '.results-separator-rose-900': { resultsSeparatorColor: '#881337' }
-'.results-separator-kingfisher-daisy': { resultsSeparatorColor: '#38069a' }
-'.results-separator-olive-drab': { resultsSeparatorColor: '#5cb22c' }
 '.results-separator-primary-50': { resultsSeparatorColor: '#f4f6f7' }
 '.results-separator-primary-100': { resultsSeparatorColor: '#e3e7ea' }
 '.results-separator-primary-200': { resultsSeparatorColor: '#cad2d7' }
@@ -17668,6 +17631,7 @@
 '.results-separator-cornflower-blue-800': { resultsSeparatorColor: '#383c9b' }
 '.results-separator-cornflower-blue-900': { resultsSeparatorColor: '#343a7b' }
 '.results-separator-cornflower-blue': { resultsSeparatorColor: '#7281e8' }
+'.results-separator-vesuvius': { resultsSeparatorColor: '#bc560a' }
 
 // Property: resultsSeparatorStyle
 // Description: The separator style of the search results (iOS-only).
@@ -18307,8 +18271,6 @@
 '.date-time-rose-700': { dateTimeColor: '#be123c' }
 '.date-time-rose-800': { dateTimeColor: '#9f1239' }
 '.date-time-rose-900': { dateTimeColor: '#881337' }
-'.date-time-kingfisher-daisy': { dateTimeColor: '#38069a' }
-'.date-time-olive-drab': { dateTimeColor: '#5cb22c' }
 '.date-time-primary-50': { dateTimeColor: '#f4f6f7' }
 '.date-time-primary-100': { dateTimeColor: '#e3e7ea' }
 '.date-time-primary-200': { dateTimeColor: '#cad2d7' }
@@ -18375,6 +18337,7 @@
 '.date-time-cornflower-blue-800': { dateTimeColor: '#383c9b' }
 '.date-time-cornflower-blue-900': { dateTimeColor: '#343a7b' }
 '.date-time-cornflower-blue': { dateTimeColor: '#7281e8' }
+'.date-time-vesuvius': { dateTimeColor: '#bc560a' }
 
 // Property: format24
 // Description: Determines whether the Time pickers display in 24-hour or 12-hour clock format.
@@ -18640,8 +18603,6 @@
 '.track-tint-rose-700': { trackTintColor: '#be123c' }
 '.track-tint-rose-800': { trackTintColor: '#9f1239' }
 '.track-tint-rose-900': { trackTintColor: '#881337' }
-'.track-tint-kingfisher-daisy': { trackTintColor: '#38069a' }
-'.track-tint-olive-drab': { trackTintColor: '#5cb22c' }
 '.track-tint-primary-50': { trackTintColor: '#f4f6f7' }
 '.track-tint-primary-100': { trackTintColor: '#e3e7ea' }
 '.track-tint-primary-200': { trackTintColor: '#cad2d7' }
@@ -18708,6 +18669,7 @@
 '.track-tint-cornflower-blue-800': { trackTintColor: '#383c9b' }
 '.track-tint-cornflower-blue-900': { trackTintColor: '#343a7b' }
 '.track-tint-cornflower-blue': { trackTintColor: '#7281e8' }
+'.track-tint-vesuvius': { trackTintColor: '#bc560a' }
 
 // Property: canCancelEvents
 // Description: Determines whether this scroll view can cancel subview touches in order to scroll instead.
@@ -19131,8 +19093,6 @@
 '.current-page-indicator-rose-700': { currentPageIndicatorColor: '#be123c' }
 '.current-page-indicator-rose-800': { currentPageIndicatorColor: '#9f1239' }
 '.current-page-indicator-rose-900': { currentPageIndicatorColor: '#881337' }
-'.current-page-indicator-kingfisher-daisy': { currentPageIndicatorColor: '#38069a' }
-'.current-page-indicator-olive-drab': { currentPageIndicatorColor: '#5cb22c' }
 '.current-page-indicator-primary-50': { currentPageIndicatorColor: '#f4f6f7' }
 '.current-page-indicator-primary-100': { currentPageIndicatorColor: '#e3e7ea' }
 '.current-page-indicator-primary-200': { currentPageIndicatorColor: '#cad2d7' }
@@ -19199,6 +19159,7 @@
 '.current-page-indicator-cornflower-blue-800': { currentPageIndicatorColor: '#383c9b' }
 '.current-page-indicator-cornflower-blue-900': { currentPageIndicatorColor: '#343a7b' }
 '.current-page-indicator-cornflower-blue': { currentPageIndicatorColor: '#7281e8' }
+'.current-page-indicator-vesuvius': { currentPageIndicatorColor: '#bc560a' }
 
 // Property: pagingControlColor
 // Description: Color of the paging control, as a color name or hex triplet.
@@ -19426,8 +19387,6 @@
 '.paging-control-rose-700': { pagingControlColor: '#be123c' }
 '.paging-control-rose-800': { pagingControlColor: '#9f1239' }
 '.paging-control-rose-900': { pagingControlColor: '#881337' }
-'.paging-control-kingfisher-daisy': { pagingControlColor: '#38069a' }
-'.paging-control-olive-drab': { pagingControlColor: '#5cb22c' }
 '.paging-control-primary-50': { pagingControlColor: '#f4f6f7' }
 '.paging-control-primary-100': { pagingControlColor: '#e3e7ea' }
 '.paging-control-primary-200': { pagingControlColor: '#cad2d7' }
@@ -19494,6 +19453,7 @@
 '.paging-control-cornflower-blue-800': { pagingControlColor: '#383c9b' }
 '.paging-control-cornflower-blue-900': { pagingControlColor: '#343a7b' }
 '.paging-control-cornflower-blue': { pagingControlColor: '#7281e8' }
+'.paging-control-vesuvius': { pagingControlColor: '#bc560a' }
 
 // Property: pagingControlHeight
 // Description: Height of the paging control, in pixels.
@@ -19760,8 +19720,6 @@
 '.page-indicator-rose-700': { pageIndicatorColor: '#be123c' }
 '.page-indicator-rose-800': { pageIndicatorColor: '#9f1239' }
 '.page-indicator-rose-900': { pageIndicatorColor: '#881337' }
-'.page-indicator-kingfisher-daisy': { pageIndicatorColor: '#38069a' }
-'.page-indicator-olive-drab': { pageIndicatorColor: '#5cb22c' }
 '.page-indicator-primary-50': { pageIndicatorColor: '#f4f6f7' }
 '.page-indicator-primary-100': { pageIndicatorColor: '#e3e7ea' }
 '.page-indicator-primary-200': { pageIndicatorColor: '#cad2d7' }
@@ -19828,6 +19786,7 @@
 '.page-indicator-cornflower-blue-800': { pageIndicatorColor: '#383c9b' }
 '.page-indicator-cornflower-blue-900': { pageIndicatorColor: '#343a7b' }
 '.page-indicator-cornflower-blue': { pageIndicatorColor: '#7281e8' }
+'.page-indicator-vesuvius': { pageIndicatorColor: '#bc560a' }
 
 // Property: showPagingControl
 // Description: Determines whether the paging control is visible.
@@ -20311,8 +20270,6 @@
 '.on-tint-rose-700': { onTintColor: '#be123c' }
 '.on-tint-rose-800': { onTintColor: '#9f1239' }
 '.on-tint-rose-900': { onTintColor: '#881337' }
-'.on-tint-kingfisher-daisy': { onTintColor: '#38069a' }
-'.on-tint-olive-drab': { onTintColor: '#5cb22c' }
 '.on-tint-primary-50': { onTintColor: '#f4f6f7' }
 '.on-tint-primary-100': { onTintColor: '#e3e7ea' }
 '.on-tint-primary-200': { onTintColor: '#cad2d7' }
@@ -20379,6 +20336,7 @@
 '.on-tint-cornflower-blue-800': { onTintColor: '#383c9b' }
 '.on-tint-cornflower-blue-900': { onTintColor: '#343a7b' }
 '.on-tint-cornflower-blue': { onTintColor: '#7281e8' }
+'.on-tint-vesuvius': { onTintColor: '#bc560a' }
 
 // Property: thumbTintColor
 // Description: The color used to tint the appearance of the thumb.
@@ -20606,8 +20564,6 @@
 '.thumb-tint-rose-700': { thumbTintColor: '#be123c' }
 '.thumb-tint-rose-800': { thumbTintColor: '#9f1239' }
 '.thumb-tint-rose-900': { thumbTintColor: '#881337' }
-'.thumb-tint-kingfisher-daisy': { thumbTintColor: '#38069a' }
-'.thumb-tint-olive-drab': { thumbTintColor: '#5cb22c' }
 '.thumb-tint-primary-50': { thumbTintColor: '#f4f6f7' }
 '.thumb-tint-primary-100': { thumbTintColor: '#e3e7ea' }
 '.thumb-tint-primary-200': { thumbTintColor: '#cad2d7' }
@@ -20674,6 +20630,7 @@
 '.thumb-tint-cornflower-blue-800': { thumbTintColor: '#383c9b' }
 '.thumb-tint-cornflower-blue-900': { thumbTintColor: '#343a7b' }
 '.thumb-tint-cornflower-blue': { thumbTintColor: '#7281e8' }
+'.thumb-tint-vesuvius': { thumbTintColor: '#bc560a' }
 
 // Property: active
 // Component(s): Ti.UI.Tab, Ti.UI.iOS.PushBehavior
@@ -20906,8 +20863,6 @@
 '.badge-rose-700': { badgeColor: '#be123c' }
 '.badge-rose-800': { badgeColor: '#9f1239' }
 '.badge-rose-900': { badgeColor: '#881337' }
-'.badge-kingfisher-daisy': { badgeColor: '#38069a' }
-'.badge-olive-drab': { badgeColor: '#5cb22c' }
 '.badge-primary-50': { badgeColor: '#f4f6f7' }
 '.badge-primary-100': { badgeColor: '#e3e7ea' }
 '.badge-primary-200': { badgeColor: '#cad2d7' }
@@ -20974,6 +20929,7 @@
 '.badge-cornflower-blue-800': { badgeColor: '#383c9b' }
 '.badge-cornflower-blue-900': { badgeColor: '#343a7b' }
 '.badge-cornflower-blue': { badgeColor: '#7281e8' }
+'.badge-vesuvius': { badgeColor: '#bc560a' }
 
 // Property: iconIsMask
 // Description: Defines if the icon property of the tab must be used as a mask.
@@ -21212,8 +21168,6 @@
 '.active-tint-rose-700': { activeTintColor: '#be123c' }
 '.active-tint-rose-800': { activeTintColor: '#9f1239' }
 '.active-tint-rose-900': { activeTintColor: '#881337' }
-'.active-tint-kingfisher-daisy': { activeTintColor: '#38069a' }
-'.active-tint-olive-drab': { activeTintColor: '#5cb22c' }
 '.active-tint-primary-50': { activeTintColor: '#f4f6f7' }
 '.active-tint-primary-100': { activeTintColor: '#e3e7ea' }
 '.active-tint-primary-200': { activeTintColor: '#cad2d7' }
@@ -21280,6 +21234,7 @@
 '.active-tint-cornflower-blue-800': { activeTintColor: '#383c9b' }
 '.active-tint-cornflower-blue-900': { activeTintColor: '#343a7b' }
 '.active-tint-cornflower-blue': { activeTintColor: '#7281e8' }
+'.active-tint-vesuvius': { activeTintColor: '#bc560a' }
 
 // Property: titleColor
 // Description: Defines the color of the title of tab when it's inactive.
@@ -21507,8 +21462,6 @@
 '.title-rose-700': { titleColor: '#be123c' }
 '.title-rose-800': { titleColor: '#9f1239' }
 '.title-rose-900': { titleColor: '#881337' }
-'.title-kingfisher-daisy': { titleColor: '#38069a' }
-'.title-olive-drab': { titleColor: '#5cb22c' }
 '.title-primary-50': { titleColor: '#f4f6f7' }
 '.title-primary-100': { titleColor: '#e3e7ea' }
 '.title-primary-200': { titleColor: '#cad2d7' }
@@ -21575,6 +21528,7 @@
 '.title-cornflower-blue-800': { titleColor: '#383c9b' }
 '.title-cornflower-blue-900': { titleColor: '#343a7b' }
 '.title-cornflower-blue': { titleColor: '#7281e8' }
+'.title-vesuvius': { titleColor: '#bc560a' }
 
 // Property: activeTitleColor
 // Description: Defines the color of the title of tab when it's active.
@@ -21802,8 +21756,6 @@
 '.active-title-rose-700': { activeTitleColor: '#be123c' }
 '.active-title-rose-800': { activeTitleColor: '#9f1239' }
 '.active-title-rose-900': { activeTitleColor: '#881337' }
-'.active-title-kingfisher-daisy': { activeTitleColor: '#38069a' }
-'.active-title-olive-drab': { activeTitleColor: '#5cb22c' }
 '.active-title-primary-50': { activeTitleColor: '#f4f6f7' }
 '.active-title-primary-100': { activeTitleColor: '#e3e7ea' }
 '.active-title-primary-200': { activeTitleColor: '#cad2d7' }
@@ -21870,6 +21822,7 @@
 '.active-title-cornflower-blue-800': { activeTitleColor: '#383c9b' }
 '.active-title-cornflower-blue-900': { activeTitleColor: '#343a7b' }
 '.active-title-cornflower-blue': { activeTitleColor: '#7281e8' }
+'.active-title-vesuvius': { activeTitleColor: '#bc560a' }
 
 // Property: hideShadow
 // Description: Set this to true to hide the shadow image of the navigation bar.
@@ -22107,8 +22060,6 @@
 '.nav-tint-rose-700': { navTintColor: '#be123c' }
 '.nav-tint-rose-800': { navTintColor: '#9f1239' }
 '.nav-tint-rose-900': { navTintColor: '#881337' }
-'.nav-tint-kingfisher-daisy': { navTintColor: '#38069a' }
-'.nav-tint-olive-drab': { navTintColor: '#5cb22c' }
 '.nav-tint-primary-50': { navTintColor: '#f4f6f7' }
 '.nav-tint-primary-100': { navTintColor: '#e3e7ea' }
 '.nav-tint-primary-200': { navTintColor: '#cad2d7' }
@@ -22175,6 +22126,7 @@
 '.nav-tint-cornflower-blue-800': { navTintColor: '#383c9b' }
 '.nav-tint-cornflower-blue-900': { navTintColor: '#343a7b' }
 '.nav-tint-cornflower-blue': { navTintColor: '#7281e8' }
+'.nav-tint-vesuvius': { navTintColor: '#bc560a' }
 
 // Property: swipeToClose
 // Description: Boolean value indicating if the user should be able to close a window using a swipe gesture.
@@ -22466,8 +22418,6 @@
 '.tabs-bg-rose-700': { tabsBackgroundColor: '#be123c' }
 '.tabs-bg-rose-800': { tabsBackgroundColor: '#9f1239' }
 '.tabs-bg-rose-900': { tabsBackgroundColor: '#881337' }
-'.tabs-bg-kingfisher-daisy': { tabsBackgroundColor: '#38069a' }
-'.tabs-bg-olive-drab': { tabsBackgroundColor: '#5cb22c' }
 '.tabs-bg-primary-50': { tabsBackgroundColor: '#f4f6f7' }
 '.tabs-bg-primary-100': { tabsBackgroundColor: '#e3e7ea' }
 '.tabs-bg-primary-200': { tabsBackgroundColor: '#cad2d7' }
@@ -22534,6 +22484,7 @@
 '.tabs-bg-cornflower-blue-800': { tabsBackgroundColor: '#383c9b' }
 '.tabs-bg-cornflower-blue-900': { tabsBackgroundColor: '#343a7b' }
 '.tabs-bg-cornflower-blue': { tabsBackgroundColor: '#7281e8' }
+'.tabs-bg-vesuvius': { tabsBackgroundColor: '#bc560a' }
 
 // Property: tabsTranslucent
 // Description: A Boolean value that indicates whether the tab bar is translucent.
@@ -22767,8 +22718,6 @@
 '.tabs-bg-selected-rose-700': { tabsBackgroundSelectedColor: '#be123c' }
 '.tabs-bg-selected-rose-800': { tabsBackgroundSelectedColor: '#9f1239' }
 '.tabs-bg-selected-rose-900': { tabsBackgroundSelectedColor: '#881337' }
-'.tabs-bg-selected-kingfisher-daisy': { tabsBackgroundSelectedColor: '#38069a' }
-'.tabs-bg-selected-olive-drab': { tabsBackgroundSelectedColor: '#5cb22c' }
 '.tabs-bg-selected-primary-50': { tabsBackgroundSelectedColor: '#f4f6f7' }
 '.tabs-bg-selected-primary-100': { tabsBackgroundSelectedColor: '#e3e7ea' }
 '.tabs-bg-selected-primary-200': { tabsBackgroundSelectedColor: '#cad2d7' }
@@ -22835,6 +22784,7 @@
 '.tabs-bg-selected-cornflower-blue-800': { tabsBackgroundSelectedColor: '#383c9b' }
 '.tabs-bg-selected-cornflower-blue-900': { tabsBackgroundSelectedColor: '#343a7b' }
 '.tabs-bg-selected-cornflower-blue': { tabsBackgroundSelectedColor: '#7281e8' }
+'.tabs-bg-selected-vesuvius': { tabsBackgroundSelectedColor: '#bc560a' }
 
 // Property: filterAnchored
 // Description: Determines whether the search is limited to the start of the string
@@ -23350,8 +23300,6 @@
 '.keyboard-toolbar-rose-700': { keyboardToolbarColor: '#be123c' }
 '.keyboard-toolbar-rose-800': { keyboardToolbarColor: '#9f1239' }
 '.keyboard-toolbar-rose-900': { keyboardToolbarColor: '#881337' }
-'.keyboard-toolbar-kingfisher-daisy': { keyboardToolbarColor: '#38069a' }
-'.keyboard-toolbar-olive-drab': { keyboardToolbarColor: '#5cb22c' }
 '.keyboard-toolbar-primary-50': { keyboardToolbarColor: '#f4f6f7' }
 '.keyboard-toolbar-primary-100': { keyboardToolbarColor: '#e3e7ea' }
 '.keyboard-toolbar-primary-200': { keyboardToolbarColor: '#cad2d7' }
@@ -23418,6 +23366,7 @@
 '.keyboard-toolbar-cornflower-blue-800': { keyboardToolbarColor: '#383c9b' }
 '.keyboard-toolbar-cornflower-blue-900': { keyboardToolbarColor: '#343a7b' }
 '.keyboard-toolbar-cornflower-blue': { keyboardToolbarColor: '#7281e8' }
+'.keyboard-toolbar-vesuvius': { keyboardToolbarColor: '#bc560a' }
 
 // Property: keyboardToolbarHeight
 // Description: Height of the keyboard toolbar if keyboardToolbar is an array.
@@ -23814,8 +23763,6 @@
 '.subtitle-text-rose-700': { subtitleTextColor: '#be123c' }
 '.subtitle-text-rose-800': { subtitleTextColor: '#9f1239' }
 '.subtitle-text-rose-900': { subtitleTextColor: '#881337' }
-'.subtitle-text-kingfisher-daisy': { subtitleTextColor: '#38069a' }
-'.subtitle-text-olive-drab': { subtitleTextColor: '#5cb22c' }
 '.subtitle-text-primary-50': { subtitleTextColor: '#f4f6f7' }
 '.subtitle-text-primary-100': { subtitleTextColor: '#e3e7ea' }
 '.subtitle-text-primary-200': { subtitleTextColor: '#cad2d7' }
@@ -23882,6 +23829,7 @@
 '.subtitle-text-cornflower-blue-800': { subtitleTextColor: '#383c9b' }
 '.subtitle-text-cornflower-blue-900': { subtitleTextColor: '#343a7b' }
 '.subtitle-text-cornflower-blue': { subtitleTextColor: '#7281e8' }
+'.subtitle-text-vesuvius': { subtitleTextColor: '#bc560a' }
 
 // Property: titleTextColor
 // Description: Color string with any Titanium supported format
@@ -24109,8 +24057,6 @@
 '.title-text-rose-700': { titleTextColor: '#be123c' }
 '.title-text-rose-800': { titleTextColor: '#9f1239' }
 '.title-text-rose-900': { titleTextColor: '#881337' }
-'.title-text-kingfisher-daisy': { titleTextColor: '#38069a' }
-'.title-text-olive-drab': { titleTextColor: '#5cb22c' }
 '.title-text-primary-50': { titleTextColor: '#f4f6f7' }
 '.title-text-primary-100': { titleTextColor: '#e3e7ea' }
 '.title-text-primary-200': { titleTextColor: '#cad2d7' }
@@ -24177,6 +24123,7 @@
 '.title-text-cornflower-blue-800': { titleTextColor: '#383c9b' }
 '.title-text-cornflower-blue-900': { titleTextColor: '#343a7b' }
 '.title-text-cornflower-blue': { titleTextColor: '#7281e8' }
+'.title-text-vesuvius': { titleTextColor: '#bc560a' }
 
 // Property: overrideUserInterfaceStyle
 // Description: Forces the app to used assigned theme instead of the system theme.
@@ -24730,8 +24677,6 @@
 '.status-bar-bg-rose-700': { statusBarBackgroundColor: '#be123c' }
 '.status-bar-bg-rose-800': { statusBarBackgroundColor: '#9f1239' }
 '.status-bar-bg-rose-900': { statusBarBackgroundColor: '#881337' }
-'.status-bar-bg-kingfisher-daisy': { statusBarBackgroundColor: '#38069a' }
-'.status-bar-bg-olive-drab': { statusBarBackgroundColor: '#5cb22c' }
 '.status-bar-bg-primary-50': { statusBarBackgroundColor: '#f4f6f7' }
 '.status-bar-bg-primary-100': { statusBarBackgroundColor: '#e3e7ea' }
 '.status-bar-bg-primary-200': { statusBarBackgroundColor: '#cad2d7' }
@@ -24798,3 +24743,4 @@
 '.status-bar-bg-cornflower-blue-800': { statusBarBackgroundColor: '#383c9b' }
 '.status-bar-bg-cornflower-blue-900': { statusBarBackgroundColor: '#343a7b' }
 '.status-bar-bg-cornflower-blue': { statusBarBackgroundColor: '#7281e8' }
+'.status-bar-bg-vesuvius': { statusBarBackgroundColor: '#bc560a' }
