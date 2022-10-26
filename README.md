@@ -65,6 +65,7 @@ module.exports = {
 Use the `-s, --single` option to generate a single color definition instead of shades of colors:
 ```bash
 > purgetss shades bc560a -s
+
 ::PurgeTSS:: All colors copied to lib/purgetss.colors.js
 ::PurgeTSS:: “Vesuvius” (#bc560a) saved in config.js
 ```
