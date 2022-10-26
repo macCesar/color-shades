@@ -98,4 +98,4 @@ To add the `purgetss.colors.js` file to your project, just run the `color-module
 > purgetss color-module
 ```
 
-It will generate the `purgetss.colors.js` file in `./app/lib` folder, with all the colors from your `config.js` file.
+It'll generate the `purgetss.colors.js` file in `./app/lib` folder, with all the colors from `config.js`.
