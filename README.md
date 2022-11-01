@@ -11,8 +11,6 @@ The App reads the generated file and displays all the colors and shades with the
 ## How to use
 Just download the App and run it on your device, or simulator.
 
-Use `LiveView` to immediately see the changes when you add or update the colors with the `shades` command.
-
 ## Add new colors
 
 To add new colors you'll need to have **PurgeTSS** installed globally on your machine.
@@ -21,7 +19,13 @@ To add new colors you'll need to have **PurgeTSS** installed globally on your ma
 > npm i -g purgetss
 ```
 
-Then you can add new shades of colors by running the `shades` command:
+If you use `LiveView`, enable Auto-Purging by running:
+
+```bash
+> purgetss watch
+```
+
+Add new shades of colors by running the `shades` command:
 ```bash
 > purgetss shades [hexcode] [name]
 ```
