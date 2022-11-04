@@ -6,6 +6,6 @@
 
     <Label text="purgetss.colors.js" class="w-screen mt-0 text-2xl font-bold text-center h-14 bg-white/75" />
 
-    <Alert id="info" module="tikit.ui" variant="pop" classes="w-1/2 bg-(#53606b) text-(#53606b)" color="info" delay="500" dismissible="true" title="Example App" text="`purgetss.colors.js` file was generated with the `color-module` command in PurgeTSS, and contains all the colors defined in `./purgetss/config.js` file.\n\nYou can add new shades of colors by running the `shades` command:\n\n> purgetss shades [hexcode]\n\nUse the `-s, --single` option to generate a single color definition instead of shades of colors.\n\nThey will be added in `config.js` and `purgetss.colors.js` files automatically." />
+    <Alert id="info" module="tikit.ui" variant="pop" classes="w-1/2 bg-(#53606b) text-(#53606b)" color="info" delay="500" dismissible="true" title="Shades Example App" text="Alloy.Globals.shadesText" />
   </Window>
 </Alloy>

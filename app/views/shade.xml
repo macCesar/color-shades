@@ -1,7 +1,19 @@
 <Alloy>
   <View id="shade" class="h-32 grid-cols-10" backgroundColor="$.args.shade">
-    <Label id="key" text="$.args.key" class="mb-5 text-sm font-bold text-center" />
+    <Label id="key" text="$.args.key" class="mb-5 text-sm font-semibold text-center" />
     <Label id="value" text="$.args.shade.toUpperCase()" class="mb-1 text-xs text-center" />
-    <View id="defaultMarker" class="w-2 h-2 rounded-2" visible="$.args.shade === $.args._default" />
+    <View id="defaultMarker" class="rounded-full-(8)" visible="$.args.shade === $.args._default" />
+
+    <View id="ratios" class="w-auto mt-2 vertical" visible="$.args.shade === $.args._default">
+      <View class="horizontal">
+        <Label id="ratio_1_square" class="text-xxs fas fa-square" />
+        <Label id="ratio_1" class="font-mono text-xs ml-0.5" text="ratio_1"/>
+      </View>
+
+      <View class="mt-1 horizontal">
+        <Label id="ratio_2_square" class="text-xxs fas fa-square" />
+        <Label id="ratio_2" class="font-mono text-xs ml-0.5" text="ratio_2"/>
+      </View>
+    </View>
   </View>
 </Alloy>

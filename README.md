@@ -1,29 +1,22 @@
 # Color Shades
 
-## A [Titanium App](https://titaniumsdk.com) for iOS and Android to showcase all the colors in `config.js` file, created with [PurgeTSS](https://github.com/macCesar/purgeTSS)
+## A [Titanium App](https://titaniumsdk.com) for iOS and Android, to showcase all the colors generated with the `shades` command in [PurgeTSS](https://github.com/macCesar/purgeTSS).
 
-`purgetss.colors.js` file was generated with the `color-module` command in **PurgeTSS**, and contains all the colors defined in `./purgetss/config.js` file.
+The App reads the `purgetss.colors.js` file (created with the `color-module` command) and displays all the colors and shades with their repective names and values.
 
-<img src="./app/assets/images/color-shades-screen.png" width="720" alt="iOS Screen - Example">
+Be sure to monitor contrast ratios as you customize colors. we’ve added two contrast ratios to each of the main colors, one for against white, and one for against black.
 
-The App reads the generated file and displays all the colors and shades with their repective names and values.
+<img src="./app/assets/images/color-shades-screen-contrast-ratios.png" width="720" alt="iOS Screen - Example">
 
 ## How to use
-Just download the App and run it on your device, or simulator.
-
-## Add new colors
-
-To add new colors you'll need to have **PurgeTSS** installed globally on your machine.
-
+First, make sure you have **PurgeTSS** installed globally on your machine:
 ```bash
 > npm i -g purgetss
 ```
 
-If you use `LiveView`, enable Auto-Purging by running:
+Then, download the App and run it on your device, or simulator.
 
-```bash
-> purgetss watch
-```
+## Add new colors
 
 Add new shades of colors by running the `shades` command:
 ```bash
@@ -68,10 +61,10 @@ module.exports = {
 
 Use the `-s, --single` option to generate a single color definition instead of shades of colors:
 ```bash
-> purgetss shades bc560a -s
+> purgetss shades 256427 -s
 
 ::PurgeTSS:: All colors copied to lib/purgetss.colors.js
-::PurgeTSS:: “Vesuvius” (#bc560a) saved in config.js
+::PurgeTSS:: “Green Pea” (#256427) saved in config.js
 ```
 
 ```js
@@ -81,7 +74,7 @@ module.exports = {
     extend: {
       colors: {
         // ...
-        vesuvius: '#bc560a'
+        'green-pea': '#256427'
       }
     }
   },
@@ -103,3 +96,10 @@ To add the `purgetss.colors.js` file to your project, run the `color-module` com
 ```
 
 It'll generate the `purgetss.colors.js` file in `./app/lib` folder, with all the colors from `config.js`.
+
+## Bootstrap 5 Theme Colors
+We've included the [Bootstrap 5 theme colors](https://getbootstrap.com/docs/5.2/customize/color/) in `./purgetss/config-bs5.js`.
+
+To use them, replace the `colors` key in `./purgetss/config.js` and compile the App.
+
+<img src="./app/assets/images/color-shades-screen-bootstrap-5.png" width="720" alt="iOS Screen - Example">

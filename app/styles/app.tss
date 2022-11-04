@@ -1,4 +1,4 @@
-// PurgeTSS v6.2.10
+// PurgeTSS v6.2.11
 // Created by César Estrada
 // https://github.com/macCesar/purgeTSS
 
@@ -12,10 +12,11 @@
 '.bg-cyan-500': { backgroundColor: '#06b6d4' }
 '.extend-safe-area': { extendSafeArea: true }
 '.font-bold': { font: { fontWeight: 'bold' } }
+'.font-mono': { font: { fontFamily: 'Courier' } }
+'.font-semibold': { font: { fontWeight: 'semibold' } }
 '.fullscreen': { fullscreen: true }
 '.grid-cols-10': { width: '10%' }
 '.h-14': { height: 56 }
-'.h-2': { height: 8 }
 '.h-32': { height: 128 }
 '.h-auto': { height: Ti.UI.SIZE }
 '.horizontal': { layout: 'horizontal' }
@@ -26,17 +27,17 @@
 '.mb-4': { bottom: 16 }
 '.mb-5': { bottom: 20 }
 '.ml-0': { left: 0 }
+'.ml-0.5': { left: 2 }
 '.ml-12': { left: 48 }
 '.mr-1.5': { right: 6 }
 '.mt-0': { top: 0 }
+'.mt-1': { top: 4 }
 '.mt-2': { top: 8 }
 '.mx-0': { right: 0, left: 0 }
 '.mx-3': { right: 12, left: 12 }
 '.opacity-0': { opacity: 0 }
-'.rounded-2': { borderRadius: 4 }
 '.rounded-md': { borderRadius: 6 }
 '.rounded-xl': { borderRadius: 12 }
-'.running': { running: true }
 '.shadow-md': { viewShadowOffset: { x: 0, y: 3 }, viewShadowRadius: 6, viewShadowColor: '#80000000', elevation: 24 }
 '.text-2xl': { font: { fontSize: 24 } }
 '.text-base': { font: { fontSize: 16 } }
@@ -47,12 +48,13 @@
 '.text-sm': { font: { fontSize: 14 } }
 '.text-xl': { font: { fontSize: 20 } }
 '.text-xs': { font: { fontSize: 12 } }
+'.text-xxs': { font: { fontSize: 10 } }
 '.touch-enabled-false': { touchEnabled: false }
 '.vertical': { layout: 'vertical' }
 '.w-1/2': { width: '50%' }
 '.w-11/12': { width: '91.666667%' }
 '.w-12': { width: 48 }
-'.w-2': { width: 8 }
+'.w-auto': { width: Ti.UI.SIZE }
 '.w-screen': { width: Ti.UI.FILL }
 
 // Platform and Device Modifiers
@@ -66,8 +68,10 @@
 
 // Arbitrary Values
 '.bg-(#53606b)': { backgroundColor: '#53606b' }
+'.rounded-full-(8)': { width: 8, height: 8, borderRadius: 4 }
 '.text-(#53606b)': { color: '#53606b', textColor: '#53606b' }
 
 // Default Font Awesome
 '.fa-info-circle': { text: '\uf05a', title: '\uf05a' }
+'.fa-square': { text: '\uf0c8', title: '\uf0c8' }
 '.fas': { font: { fontFamily: 'FontAwesome6Free-Solid' } }

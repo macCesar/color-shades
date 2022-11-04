@@ -77,5 +77,9 @@ module.exports = {
     '900': '#343a7b',
     default: '#7281e8'
   },
-  vesuvius: '#bc560a'
+  'lavender-magenta': '#f284e8',
+  'pacific-blue': '#02abbe',
+  turquoise: '#2ee39e',
+  'electric-violet': '#4f0aef',
+  'green-pea': '#256427'
 }

@@ -3,12 +3,23 @@ _.each($.args.shades, (shade, key) => {
   if (key !== 'default') shadesArray.push(shade);
 });
 
-let contrastColor, contrastRatio = (getContrastRatio($.args.shade, '#ffffff') < 2);
+let contrastColor, contrastRatio = (getContrastRatio($.args.shade, '#ffffff') < 4.5);
+
 if (shadesArray.length > 1) contrastColor = contrastRatio ? _.last(shadesArray) : _.first(shadesArray);
 else contrastColor = contrastRatio ? '#000' : '#fff';
 
-if ($.args.single) $.shade.width = '100%';
+if (shadesArray.length === 1) $.shade.width = '100%';
+if (shadesArray.length === 9) $.shade.width = '11.111111%';
 $.key.color = $.value.color = $.defaultMarker.backgroundColor = contrastColor;
+
+let ratio_1 = getContrastRatio('#fff', $.args._default ?? $.args.shade);
+let ratio_2 = getContrastRatio('#000', $.args._default ?? $.args.shade);
+
+$.ratio_1.text = ratio_1.toFixed(2).substring(0, 4);
+$.ratio_2.text = ratio_2.toFixed(2).substring(0, 4);
+
+$.ratio_1.color = $.ratio_1_square.color = (ratio_1 < 4.5) ? '#000' : '#fff';
+$.ratio_2.color = $.ratio_2_square.color = (ratio_2 < 4.5) ? '#000' : '#fff';
 
 function getContrastRatio(color1, color2) {
   let l1 = getLuminance(color1);
@@ -17,6 +28,7 @@ function getContrastRatio(color1, color2) {
 }
 
 function getLuminance(color) {
+  if (color.length === 4) color = color.replace(/#([0-9a-f])([0-9a-f])([0-9a-f])/i, '#$1$1$2$2$3$3');
   let rgb = color.replace(/^#/, '').match(/.{2}/g);
   rgb = rgb.map(function(x) {
     x = parseInt(x, 16) / 255;
