@@ -41,11 +41,13 @@
 '.shadow-md': { viewShadowOffset: { x: 0, y: 3 }, viewShadowRadius: 6, viewShadowColor: '#80000000', elevation: 24 }
 '.text-2xl': { font: { fontSize: 24 } }
 '.text-base': { font: { fontSize: 16 } }
+'.text-black': { color: '#000000', textColor: '#000000' }
 '.text-center': { textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER }
 '.text-cyan-500': { color: '#06b6d4', textColor: '#06b6d4' }
 '.text-left': { textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT }
 '.text-lg': { font: { fontSize: 18 } }
 '.text-sm': { font: { fontSize: 14 } }
+'.text-white': { color: '#ffffff', textColor: '#ffffff' }
 '.text-xl': { font: { fontSize: 20 } }
 '.text-xs': { font: { fontSize: 12 } }
 '.text-xxs': { font: { fontSize: 10 } }

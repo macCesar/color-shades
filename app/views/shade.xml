@@ -6,12 +6,12 @@
 
     <View id="ratios" class="w-auto mt-2 vertical" visible="$.args.shade === $.args._default">
       <View class="horizontal">
-        <Label id="ratio_1_square" class="text-xxs fas fa-square" />
+        <Label id="ratio_1_square" class="text-white text-xxs fas fa-square" />
         <Label id="ratio_1" class="font-mono text-xs ml-0.5" text="ratio_1"/>
       </View>
 
       <View class="mt-1 horizontal">
-        <Label id="ratio_2_square" class="text-xxs fas fa-square" />
+        <Label id="ratio_2_square" class="text-black text-xxs fas fa-square" />
         <Label id="ratio_2" class="font-mono text-xs ml-0.5" text="ratio_2"/>
       </View>
     </View>

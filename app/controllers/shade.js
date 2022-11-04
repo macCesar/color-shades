@@ -15,11 +15,11 @@ $.key.color = $.value.color = $.defaultMarker.backgroundColor = contrastColor;
 let ratio_1 = getContrastRatio('#fff', $.args._default ?? $.args.shade);
 let ratio_2 = getContrastRatio('#000', $.args._default ?? $.args.shade);
 
-$.ratio_1.text = ratio_1.toFixed(2).substring(0, 4);
-$.ratio_2.text = ratio_2.toFixed(2).substring(0, 4);
+$.ratio_1.text = ratio_1.toString().substring(0, 4);
+$.ratio_2.text = ratio_2.toString().substring(0, 4);
 
-$.ratio_1.color = $.ratio_1_square.color = (ratio_1 < 4.5) ? '#000' : '#fff';
-$.ratio_2.color = $.ratio_2_square.color = (ratio_2 < 4.5) ? '#000' : '#fff';
+$.ratio_1.color = ($.ratio_1.text < 8) ? '#fff' : '#000';
+$.ratio_2.color = ($.ratio_2.text < 8) ? '#fff' : '#000';
 
 function getContrastRatio(color1, color2) {
   let l1 = getLuminance(color1);
