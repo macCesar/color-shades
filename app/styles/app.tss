@@ -27,11 +27,10 @@
 '.mb-4': { bottom: 16 }
 '.mb-5': { bottom: 20 }
 '.ml-0': { left: 0 }
-'.ml-0.5': { left: 2 }
+'.ml-1': { left: 4 }
 '.ml-12': { left: 48 }
 '.mr-1.5': { right: 6 }
 '.mt-0': { top: 0 }
-'.mt-1': { top: 4 }
 '.mt-2': { top: 8 }
 '.mx-0': { right: 0, left: 0 }
 '.mx-3': { right: 12, left: 12 }
@@ -50,7 +49,6 @@
 '.text-white': { color: '#ffffff', textColor: '#ffffff' }
 '.text-xl': { font: { fontSize: 20 } }
 '.text-xs': { font: { fontSize: 12 } }
-'.text-xxs': { font: { fontSize: 10 } }
 '.touch-enabled-false': { touchEnabled: false }
 '.vertical': { layout: 'vertical' }
 '.w-1/2': { width: '50%' }

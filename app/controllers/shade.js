@@ -12,14 +12,14 @@ if (shadesArray.length === 1) $.shade.width = '100%';
 if (shadesArray.length === 9) $.shade.width = '11.111111%';
 $.key.color = $.value.color = $.defaultMarker.backgroundColor = contrastColor;
 
-let ratio_1 = getContrastRatio('#fff', $.args._default ?? $.args.shade);
-let ratio_2 = getContrastRatio('#000', $.args._default ?? $.args.shade);
+let ratio_1 = getContrastRatio('#fff', $.args.shade);
+let ratio_2 = getContrastRatio('#000', $.args.shade);
 
 $.ratio_1.text = ratio_1.toString().substring(0, 4);
 $.ratio_2.text = ratio_2.toString().substring(0, 4);
 
-$.ratio_1.color = ($.ratio_1.text < 8) ? '#fff' : '#000';
-$.ratio_2.color = ($.ratio_2.text < 8) ? '#fff' : '#000';
+$.ratio_1.color = ($.ratio_1.text < 4.5) ? '#fff' : '#000';
+$.ratio_2.color = ($.ratio_2.text < 4.5) ? '#fff' : '#000';
 
 function getContrastRatio(color1, color2) {
   let l1 = getLuminance(color1);
