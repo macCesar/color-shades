@@ -1,4 +1,4 @@
-// PurgeTSS v6.2.11
+// PurgeTSS v6.2.14
 // Created by César Estrada
 // https://github.com/macCesar/purgeTSS
 
@@ -8,7 +8,6 @@
 'Window': { backgroundColor: '#ffffff' }
 
 // Main Styles
-'.-mt-0.5': { top: -2 }
 '.bg-cyan-500': { backgroundColor: '#06b6d4' }
 '.extend-safe-area': { extendSafeArea: true }
 '.font-bold': { font: { fontWeight: 'bold' } }
@@ -31,6 +30,7 @@
 '.ml-12': { left: 48 }
 '.mr-1.5': { right: 6 }
 '.mt-0': { top: 0 }
+'.mt-0.5': { top: 2 }
 '.mt-2': { top: 8 }
 '.mx-0': { right: 0, left: 0 }
 '.mx-3': { right: 12, left: 12 }
@@ -39,7 +39,6 @@
 '.rounded-xl': { borderRadius: 12 }
 '.shadow-md': { viewShadowOffset: { x: 0, y: 3 }, viewShadowRadius: 6, viewShadowColor: '#80000000', elevation: 24 }
 '.text-2xl': { font: { fontSize: 24 } }
-'.text-base': { font: { fontSize: 16 } }
 '.text-black': { color: '#000000', textColor: '#000000' }
 '.text-center': { textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER }
 '.text-cyan-500': { color: '#06b6d4', textColor: '#06b6d4' }
@@ -75,3 +74,6 @@
 '.fa-info-circle': { text: '\uf05a', title: '\uf05a' }
 '.fa-square': { text: '\uf0c8', title: '\uf0c8' }
 '.fas': { font: { fontFamily: 'FontAwesome6Free-Solid' } }
+
+// Unused or unsupported classes
+// '.font-regular': { }
