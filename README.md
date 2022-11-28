@@ -100,6 +100,6 @@ It'll generate the `purgetss.colors.js` file in `./app/lib` folder, with all the
 ## Bootstrap 5 Theme Colors
 We've included the [Bootstrap 5 theme colors](https://getbootstrap.com/docs/5.2/customize/color/) in `./purgetss/config-bs5.js`.
 
-To use them, replace the `colors` key in `./purgetss/config.js` and compile the App.
+To use them, replace the `colors` key in `./purgetss/config.js` and run `purgetss` to re-generate `tailwind.tss` and the `purgetss.colors.js` automatically.
 
 <img src="./app/assets/images/color-shades-screen-bootstrap-5-ratios.png" width="720" alt="iOS Screen - Example">
