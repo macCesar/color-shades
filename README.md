@@ -4,7 +4,7 @@
 
 The App reads the `purgetss.colors.js` file (created with the `color-module` command) and displays all the colors and shades with their repective names and values.
 
-Be sure to monitor contrast ratios as you customize colors. we’ve added two contrast ratios to each of the main colors, one for against white, and one for against black.
+Be sure to monitor contrast ratios as you customize colors. we’ve added two contrast ratios to each of the main colors, one for against white, and one for against black. Click any color shade to display the rest of the contrast ratios.
 
 <img src="./app/assets/images/color-shades-screen-contrast-ratios-fixed.png" width="720" alt="iOS Screen - Example">
 
