@@ -1,15 +1,14 @@
-// PurgeTSS v6.2.18
+// PurgeTSS v6.2.43
 // Created by César Estrada
-// https://github.com/macCesar/purgeTSS
+// https://purgetss.com
 
 // Ti Elements
 'Label': { color: '#53606b', textColor: '#53606b' }
 'View': { width: Ti.UI.SIZE, height: Ti.UI.SIZE }
-'Window': { backgroundColor: '#ffffff' }
+'Window': { backgroundColor: '#FFFFFF' }
 
 // Main Styles
 '.bg-cyan-500': { backgroundColor: '#06b6d4' }
-'.extend-safe-area': { extendSafeArea: true }
 '.font-bold': { font: { fontWeight: 'bold' } }
 '.font-mono': { font: { fontFamily: 'Courier' } }
 '.font-semibold': { font: { fontWeight: 'semibold' } }
@@ -58,6 +57,8 @@
 
 // Platform and Device Modifiers
 '.android:scroll-type-vertical[platform=android]': { scrollType: 'vertical' }
+'.handheld:extend-safe-area-false[formFactor=handheld]': { extendSafeArea: false }
+'.tablet:extend-safe-area[formFactor=tablet]': { extendSafeArea: true }
 
 // Color Opacity Modifiers
 '.bg-white/75': { backgroundColor: '#bfffffff' }

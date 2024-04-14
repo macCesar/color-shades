@@ -1,7 +1,7 @@
-Alloy.Globals.shadesText = `These colors were created with the ‘shades’ command in PurgeTSS.
+Alloy.Globals.shadesText = `These colors were created using the ‘shades’ command in PurgeTSS.
 
-> purgetss shades [hexcode] [name]
+> purgetss shades [hexcode] [name] [-s]
 
-Use the ‘- s, --single’ option to generate a single color definition instead of shades of colors.
+Use the ‘-s, --single’ option to generate a single color definition instead of a range of shades.
 
-‘purgetss.colors.js’ file was generated with the ‘color-module’ command, and contains all the colors defined in ‘./purgetss/config.js’ file.`;
+The ‘purgetss.colors.js’ file was generated with the ‘color-module’ command and contains all the colors defined in the ‘./purgetss/config.js’ file.`;
