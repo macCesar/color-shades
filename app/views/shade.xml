@@ -1,17 +1,17 @@
 <Alloy>
   <View id="shade" class="h-32 grid-cols-10" backgroundColor="$.args.shade">
-    <Label id="key" text="$.args.key" class="mb-5 text-sm font-semibold text-center" />
-    <Label id="value" text="$.args.shade.toUpperCase()" class="mb-1 text-xs text-center" />
+    <Label id="key" text="$.args.key" class="mb-5 text-center text-sm font-semibold" />
+    <Label id="value" text="$.args.shade.toUpperCase()" class="mb-1 text-center text-xs" />
     <View id="defaultMarker" class="rounded-full-(8)" visible="$.args.shade === $.args._default" />
 
-    <View id="ratios" class="w-auto mt-2 vertical" visible="$.args.shade === $.args._default" defaultColor="$.args.shade === $.args._default">
+    <View id="ratios" class="vertical mt-2 w-auto" visible="$.args.shade === $.args._default" defaultColor="$.args.shade === $.args._default">
       <View class="horizontal">
-        <Label id="ratio_1_square" class="text-xs text-white fas fa-square" />
+        <Label id="ratio_1_square" class="fas fa-square text-xs text-white" />
         <Label id="ratio_1" class="ml-1 font-mono text-xs" text="ratio_1"/>
       </View>
 
       <View class="horizontal">
-        <Label id="ratio_2_square" class="text-xs text-black fas fa-square" />
+        <Label id="ratio_2_square" class="fas fa-square text-xs text-black" />
         <Label id="ratio_2" class="ml-1 font-mono text-xs" text="ratio_2"/>
       </View>
     </View>
