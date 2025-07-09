@@ -7,7 +7,7 @@
         <View class="touch-enabled-false vertical mx-3 h-auto">
           <Label module="tikit.ui" classes="$.args.classes" class="touch-enabled-false mx-0 mt-2 text-left text-lg font-bold text-cyan-500" text="$.args.title" />
 
-          <Label module="tikit.ui" class="font-regular touch-enabled-false mx-0 mb-2 mt-0.5 h-auto text-left text-sm text-gray-600/70" text="$.args.text" />
+          <Label module="tikit.ui" class="touch-enabled-false mx-0 mb-2 mt-0.5 h-auto text-left text-sm text-gray-600/70" text="$.args.text" />
         </View>
       </View>
     </View>
