@@ -1,4 +1,4 @@
-// PurgeTSS v6.2.43
+// PurgeTSS v7.1.9
 // Created by César Estrada
 // https://purgetss.com
 
@@ -75,6 +75,3 @@
 '.fa-info-circle': { text: '\uf05a', title: '\uf05a' }
 '.fa-square': { text: '\uf0c8', title: '\uf0c8' }
 '.fas': { font: { fontFamily: 'FontAwesome6Free-Solid' } }
-
-// Unused or unsupported classes
-// '.font-regular': { }
